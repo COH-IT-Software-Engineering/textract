@@ -1,5 +1,10 @@
 {
-    "extends": "airbnb",
+    "extends": [
+      "airbnb",
+      "plugin:import/errors",
+      "plugin:import/warnings",
+      "plugin:import/typescript"
+    ],
     "rules": {
       "space-in-parens": ["error", "always", { "exceptions": ["{}"] }],
       "comma-style": ["error", "first", { "exceptions": { "ArrayExpression": true, "ObjectExpression": true } }],
@@ -16,12 +21,26 @@
       "no-var": 0,
       "prefer-template": 0,
       "prefer-arrow-callback": 0,
-      "prefer-rest-params": 0
+      "prefer-rest-params": 0,
     },
     "env": {
       "mocha": true
     },
     "globals": {
       "expect": true
+    },
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [
+            ".js",
+            ".jsx",
+            ".ts",
+            ".tsx"
+          ]
+        }
+      },
+      "import/no-unresolved": 0,
+      "import/extensions": 0
     }
 }

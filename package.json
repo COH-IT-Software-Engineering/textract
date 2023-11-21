@@ -64,16 +64,10 @@
   },
   "devDependencies": {
     "chai": "1.5.0",
-    "eslint": "^8.54.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.33.2",
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha",
-    "lint": "node_modules/.bin/eslint -c .eslintrc.json lib"
+    "test": "node_modules/.bin/mocha"
   },
   "license": "MIT",
   "engines": {

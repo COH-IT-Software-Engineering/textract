@@ -47,29 +47,29 @@
     "epub"
   ],
   "dependencies": {
+    "@xmldom/xmldom": "0.8.10",
+    "cheerio": "^1.0.0-rc.12",
+    "epub2": "^3.0.2",
+    "got": "^13.0.0",
+    "html-entities": "1.2.0",
+    "iconv-lite": "0.4.15",
+    "xlsx": "github:COH-IT-Software-Engineering/sheetjs#9199c2600cfb2037336e09753f24d998f216201c",
+    "jschardet": "1.4.1",
+    "marked": "^10.0.0",
+    "meow": "^12.1.1",
     "mime": "2.2.0",
     "pdf-text-extract": "1.3.1",
     "xpath": "0.0.23",
-    "xmldom": "0.1.27",
-    "j": "0.4.3",
-    "cheerio": "1.0.0-rc.2",
-    "marked": "0.6.2",
-    "meow": "3.7.0",
-    "got": "5.7.1",
-    "html-entities": "1.2.0",
-    "iconv-lite": "0.4.15",
-    "jschardet": "1.4.1",
-    "yauzl": "2.7.0",
-    "epub2": "1.3.4"
+    "yauzl": "2.7.0"
   },
   "devDependencies": {
     "chai": "1.5.0",
-    "eslint": "2.11.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.1.1",
-    "eslint-plugin-jsx-a11y": "^1.2.0",
-    "eslint-plugin-import": "^1.7.0 ",
-    "mocha": "1.9.0"
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "mocha": "^10.2.0"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha",

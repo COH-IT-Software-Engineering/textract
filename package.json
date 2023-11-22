@@ -50,7 +50,7 @@
     "@xmldom/xmldom": "0.8.10",
     "cheerio": "^1.0.0-rc.12",
     "epub2": "^3.0.2",
-    "got": "^13.0.0",
+    "got": "^11",
     "html-entities": "1.2.0",
     "iconv-lite": "0.4.15",
     "xlsx": "github:COH-IT-Software-Engineering/sheetjs#9199c2600cfb2037336e09753f24d998f216201c",
